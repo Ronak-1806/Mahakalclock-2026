@@ -457,7 +457,7 @@ const MahakalClock = () => {
             r="95"
             stroke="#333"
             strokeWidth="4"
-            fill="#f8f8f8"
+            fill="none"
           />
 
         {/* Inner Ring for Current Time with Decorative Border */}
@@ -660,13 +660,13 @@ const MahakalClock = () => {
           y="145"
           width="30"
         />
-        <image
+        {/* <image
           className="water-img-5"
           href="/wallpaper/001.png"
           x="170"
           y="20"
-          width="30"
-        />
+          width"30"
+        /> */}
       </svg>
           
       {/* Suggestions box with a decorative border */}
